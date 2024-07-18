@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 body{
     font-family: "Inter", sans-serif;
@@ -7,7 +8,8 @@ body{
 .head{
     width: 1440px;
     height: 715px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 200%);
+    position: relative;
 }
 
 .nav-class{
@@ -50,7 +52,7 @@ body{
     font-weight: 400;
 }
 
-span{
+.nav-span{
     width: 92px;
     height: 38px;
     border-radius: 46px;
@@ -62,3 +64,146 @@ span{
     font-weight: 600;
 }
 
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 11.88rem;
+    margin-right: 13.4rem;
+}
+
+.banner-title{
+    width: 520px;
+    height: 282px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.italic{
+    font-family: "Dancing Script", cursive;
+}
+
+.banner-description{
+    width: 520px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 462px;
+    height: 54px;
+}
+
+.banner-content{
+    margin-bottom: 200px;
+}
+
+.banner-img img{
+    position: absolute;
+    top: -80px;
+    width: 349px;
+    height: 580px;
+}
+
+.btn-1{
+    width: 224px;
+    height: 54px;
+    display: flex;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-2{
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-img img{
+    position: relative;
+}
+
+.workout{
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(11, 11, 11, 0.255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workout{
+    position: absolute;
+    top: 350px;
+    right: 230px;
+}
+
+.tutorial{
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(11, 11, 11, 0.255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutorial{
+    position: absolute;
+    top: 600px;
+    left: 790px;
+}
+
+.workout-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: -4px;
+    margin-bottom: -16px;
+}
+
+.workout-desc{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+}
