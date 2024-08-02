@@ -6,8 +6,8 @@ body{
 }
 
 .head{
-    max-width: 1440px;
-    height: 715px;
+    max-width: 100%;
+    height: 100%;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 200%);
     position: relative;
 }
@@ -50,6 +50,10 @@ body{
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+}
+
+.fa-solid{
+    display: none;
 }
 
 .nav-span{
@@ -189,7 +193,17 @@ body{
 .tutorial{
     position: absolute;
     top: 600px;
-    left: 790px;
+    left: 1250px;
+}
+
+.circle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    right: 77px;
+    top: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
 }
 
 .workout-title{
@@ -211,5 +225,61 @@ body{
 @media screen and (max-width: 576px) {
     .nav-options{
         display: none;
+    }
+    .project-title{
+        margin-left: -120px;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-title{
+        margin-left: 50px;
+        font-size:45px;
+        width: 350px;
+        height: 175px;
+    }
+
+    .banner-description{
+        margin-left: 50px;
+        width: 350px;
+        height: 98px;
+    }
+
+    .btn-container{
+        width: 350px;
+        height: 54px;
+    }
+
+    .btn-1{
+        width: 140px;
+        height: 50px;
+        display: flex;
+        padding: 12px 20px 17px 20px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-left: 50px;
+    }
+
+    .btn-2{
+        width: 140px;
+        height: 50px;
+        display: flex;
+        padding: 12px 20px 17px 20px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .workout{
+        position: absolute;
+        top: 750px;
+        right: 15px;
+    }
+
+    .tutorial{
+        position: absolute;
+        top: 930px;
+        left: 25px;
     }
 }
