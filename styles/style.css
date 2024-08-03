@@ -3,12 +3,12 @@
 
 body{
     font-family: "Inter", sans-serif;
-}
-
-.head{
     max-width: 100%;
     height: 100%;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 200%);
+}
+
+.head{
     position: relative;
 }
 
@@ -220,6 +220,37 @@ body{
     font-family: Inter;
     font-size: 13px;
     font-weight: 400;
+}
+
+.habits-section-container{
+    width: 1044px;
+    height: 452px;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+.habit-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.habits{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 58px;
 }
 
 @media screen and (max-width: 576px) {
