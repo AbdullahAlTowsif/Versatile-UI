@@ -12,6 +12,10 @@ body{
     position: relative;
 }
 
+.btn-border{
+    border: none;
+}
+
 .nav-class{
     display: flex;
     flex-direction: row;
@@ -300,6 +304,143 @@ body{
 
 .btn-xtra{
     padding: 16px 40px 16px 70px;
+}
+
+.bmi-container{
+    margin-top: 78px;
+}
+
+.bmi-calculation-part{
+    background: rgb(34, 34, 34);
+    opacity: 0.8;
+}
+
+.bmi-info{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.bmi-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.bmi-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -38px;
+    padding-bottom: 20px;
+}
+
+.bmi-calculation-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bmi-calculation-title, .calculate-bmi-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.calculate-bmi-title{
+    padding-bottom: 10px;
+}
+
+table{
+    width: 350px;
+    height: 216px;
+}
+
+th{
+    color: white;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+.calculate-bmi{
+    width: 577px;
+    height: 386px;
+}
+
+.give-info{
+    width: 577px;
+    height: 168px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 10px;
+}
+
+.give-info> .give-info-3{
+    grid-column: span 2;
+}
+
+.give-info-1{
+    width: 220px;
+    height: 28px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border: none;
+}
+
+.give-info-2{
+    width: 280px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border: none;
+}
+
+.give-info-3{
+    width: 570px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border: none;
+}
+
+.bmi-btn{
+    padding: 16px 40px 16px 65px;
 }
 
 @media screen and (max-width: 576px) {
