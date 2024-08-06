@@ -681,9 +681,71 @@ table, th, td {
     text-align: center;
 }
 
+.foot{
+    background: rgba(33, 31, 31, 0.416);
+}
+
+.my-foot{
+    width: 1059px;
+    height: 249px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-info{
+    width: 443px;
+    height: 176px;
+}
+
+.foot-title{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.foot-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -40px;
+}
+
+.get-started{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+.baki-sob{
+    margin-top: -55px;
+}
+
+.foot-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+}
+
 hr{
     width: 1059.5px;
     border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
 
 @media screen and (max-width: 576px) {
