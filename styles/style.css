@@ -12,9 +12,7 @@ body{
     position: relative;
 }
 
-.fa-solid{
-    display: none;
-}
+
 
 .btn-border{
     border: none;
@@ -71,6 +69,10 @@ body{
     font-family: Inter;
     font-size: 18px;
     font-weight: 600;
+}
+
+.bar{
+    display: none;
 }
 
 .banner-container{
@@ -754,7 +756,7 @@ hr{
     .nav-options{
         display: none;
     }
-    .fa-solid{
+    .bar{
         display: block;
         margin-left: 190px;
     }
@@ -891,7 +893,12 @@ hr{
     }
 
     .bmi-chart{
-        margin-right: 50px;
+        margin-right: 95px;
+    }
+
+    table{
+        width: 300px;
+        height: 216px;
     }
 
     .bmi-calculation-title{
@@ -988,7 +995,7 @@ hr{
     }
 
     .foot-info{
-        width: 420px;
+        width: 400px;
     }
 
     .my-foot{
