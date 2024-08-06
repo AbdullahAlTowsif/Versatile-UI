@@ -12,6 +12,10 @@ body{
     position: relative;
 }
 
+.fa-solid{
+    display: none;
+}
+
 .btn-border{
     border: none;
 }
@@ -281,7 +285,6 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 40px;
-    background: url(4);
 }
 
 .extra-mile-info{
@@ -751,6 +754,11 @@ hr{
     .nav-options{
         display: none;
     }
+    .fa-solid{
+        display: block;
+        margin-left: 190px;
+    }
+
     .project-title{
         margin-left: -120px;
     }
