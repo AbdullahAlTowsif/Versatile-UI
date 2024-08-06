@@ -867,6 +867,7 @@ hr{
         width: 287px;
         padding: 16px 40px 16px 100px;
         margin-top: 30px;
+        margin-left:2px;
     }
 
     .bmi-title{
@@ -886,10 +887,11 @@ hr{
 
     .calculate-bmi{
         width: 100%;
+        margin-left: 10px;
     }
 
     .bmi-chart{
-        margin-right: 80px;
+        margin-right: 50px;
     }
 
     .bmi-calculation-title{
@@ -968,17 +970,25 @@ hr{
     }
 
     .loss{
+        width: 180px;
+        height: 150px;
         margin-right: -80px;
         margin-left: 5px;
     }
 
     .gain{
+        width: 180px;
+        height: 150px;
         margin-right: -80px;
         margin-left: 5px;
     }
 
     hr{
         width: 354px;
+    }
+
+    .foot-info{
+        width: 420px;
     }
 
     .my-foot{
