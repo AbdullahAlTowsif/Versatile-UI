@@ -602,6 +602,82 @@ table, th, td {
     right: 275px;
 }
 
+.unique-container{
+    background-image: url("../images/unique image.jpg");
+    max-width: 100%;
+}
+
+.unique-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.loss-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.weight-loss{
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+}
+
+.loss{
+    width: 240px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.quota-half{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.weight-gain{
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+}
+
+.gain-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.gain{
+    width: 240px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.quota-full{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr{
+    width: 1059.5px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 @media screen and (max-width: 576px) {
     .nav-options{
         display: none;
