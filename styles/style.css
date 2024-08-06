@@ -451,7 +451,7 @@ table, th, td {
     max-width: 671px;
     height: 155px;
     margin: 0 auto;
-    margin-bottom: 55px;
+    margin-bottom: 10px;
 }
 
 .our-team-title{
@@ -473,17 +473,14 @@ table, th, td {
 
 .our-team-members{
     max-width: 1060px;
-    height: 604px;
     border-radius: 18px;
     background: rgba(0, 0, 0, 0.323);
     margin: 0 auto;
-    position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
 }
 
-.our-team-members>img{
+.our-team-members>div{
     margin-top: 15px;
     margin-left: 15px;
 }
@@ -509,6 +506,10 @@ table, th, td {
     font-weight: 400;
 }
 
+.image-one{
+    position: relative;
+}
+
 .one{
     position: absolute;
     top: 190px;
@@ -521,16 +522,24 @@ table, th, td {
     left: 20px;
 }
 
+.image-two{
+    position: relative;
+}
+
 .two{
     position: absolute;
     top: 190px;
-    left: 375px;
+    left: 10px;
 }
 
 .d-two{
     position: absolute;
     top: 225px;
-    left: 375px;
+    left: 10px;
+}
+
+.image-three{
+    position: relative;
 }
 
 .three{
@@ -545,40 +554,52 @@ table, th, td {
     right: 285px;
 }
 
+.image-four{
+    position: relative;
+}
+
 .four{
     position: absolute;
-    top: 485px;
-    left: 25px;
+    top: 195px;
+    left: 15px;
 }
 
 .d-four{
     position: absolute;
-    top: 520px;
-    left: 25px;
+    top: 225px;
+    left: 15px;
+}
+
+.image-five{
+    position: relative;
 }
 
 .five{
     position: absolute;
-    top: 490px;
-    left: 375px;
+    top: 190px;
+    left: 15px;
 }
 
 .d-five{
     position: absolute;
-    top: 525px;
-    left: 375px;
+    top: 220px;
+    left: 15px;
+}
+
+.image-six{
+    position: relative;
 }
 
 .six{
     position: absolute;
-    top: 495px;
-    right: 220px;
+    top: 195px;
+    right: 210px;
 }
 
 .d-six{
     position: absolute;
-    top: 525px;
-    right: 285px;
+    top: 225px;
+    right: 275px;
 }
 
 @media screen and (max-width: 576px) {
@@ -767,6 +788,18 @@ table, th, td {
         height: 54px;
         margin-left: 15px;
         padding: 16px 40px 16px 80px;
+    }
+
+    .our-team-members{
+        width: 350px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-team-title{
+        color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
     }
 
 }
