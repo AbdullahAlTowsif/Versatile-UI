@@ -443,6 +443,144 @@ table, th, td {
     padding: 16px 40px 16px 65px;
 }
 
+.team-container{
+    max-width: 100%;
+}
+
+.our-team-info{
+    max-width: 671px;
+    height: 155px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.our-team-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.team-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.our-team-members{
+    max-width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.323);
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.our-team-members>img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.team-members{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.trainer-name{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.designation{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.one{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+}
+
+.d-one{
+    position: absolute;
+    top: 225px;
+    left: 20px;
+}
+
+.two{
+    position: absolute;
+    top: 190px;
+    left: 375px;
+}
+
+.d-two{
+    position: absolute;
+    top: 225px;
+    left: 375px;
+}
+
+.three{
+    position: absolute;
+    top: 190px;
+    right: 210px;
+}
+
+.d-three{
+    position: absolute;
+    top: 225px;
+    right: 285px;
+}
+
+.four{
+    position: absolute;
+    top: 485px;
+    left: 25px;
+}
+
+.d-four{
+    position: absolute;
+    top: 520px;
+    left: 25px;
+}
+
+.five{
+    position: absolute;
+    top: 490px;
+    left: 375px;
+}
+
+.d-five{
+    position: absolute;
+    top: 525px;
+    left: 375px;
+}
+
+.six{
+    position: absolute;
+    top: 495px;
+    right: 220px;
+}
+
+.d-six{
+    position: absolute;
+    top: 525px;
+    right: 285px;
+}
+
 @media screen and (max-width: 576px) {
     .nav-options{
         display: none;
